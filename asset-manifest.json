@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/shlokverse/static/css/main.3db3eeb1.css",
-    "main.js": "/shlokverse/static/js/main.04593349.js",
+    "main.js": "/shlokverse/static/js/main.ef1da059.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
-    "static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.png": "/shlokverse/static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.1ea652516e8df76e6010.png",
+    "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
     "index.html": "/shlokverse/index.html",
     "main.3db3eeb1.css.map": "/shlokverse/static/css/main.3db3eeb1.css.map",
-    "main.04593349.js.map": "/shlokverse/static/js/main.04593349.js.map",
+    "main.ef1da059.js.map": "/shlokverse/static/js/main.ef1da059.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3db3eeb1.css",
-    "static/js/main.04593349.js"
+    "static/js/main.ef1da059.js"
   ]
 }
