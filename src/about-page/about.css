@@ -1,0 +1,54 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@300;400&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Modern font for body */
+  background-color: hsl(216, 20%, 95%);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.content:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5em; /* Increased font size for emphasis */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif; /* Modern font for headings */
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif; /* Modern font for paragraphs */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 1.8em; /* Adjusted size for smaller screens */
+  }
+  p {
+    font-size: 1em;
+  }
+}

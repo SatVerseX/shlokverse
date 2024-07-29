@@ -1,0 +1,21 @@
+/* Service.css */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(135deg, #ffffff, rgb(243, 239, 241));
+    color: #fff;
+    text-align: center;
+  }
+  
+  .heading {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 3em; /* Large size for emphasis */
+    font-weight: 600; /* Bold text */
+    margin: 0;
+    padding: 20px;
+   /* background: rgba(0, 0, 0, 0.3); /* Slight background for better readability */
+    /*border-radius: 8px; /* Rounded corners */
+  }
+  

@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './page1-components/Navbar.js'; // Navbar ko import kiya
+//import Body from './page1-components/body.js'; // Body ko import kiya
+import Page1 from './page1-components/page1.js';
+import About from './about-page/about.js';
+import Service from './service-page/service.js'
+import Semester from './semester-page/semester.js'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar /> {/* Navbar component ko use kiya */}
+        <Routes>
+          <Route path="/" element={<Page1 />} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/services" element={<Service/>} />
+          <Route path="/contact" element={<h2>Contact Page</h2>} />
+          <Route path="/endsem" element={<Semester/>}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

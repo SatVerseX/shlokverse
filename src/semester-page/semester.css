@@ -1,0 +1,59 @@
+/* FileDownload.css */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #f0f2f5; /* Light gray background */
+    min-height: 100vh;
+  }
+  
+  .heading2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .file-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .file-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .file-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .download-button {
+    background: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background: #357abd;
+    transform: scale(1.05);
+  }
+  
