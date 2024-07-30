@@ -4,18 +4,13 @@ import React from 'react';
 import './semester.css'; // Import the CSS file
 
 const FileDownload = () => {
-<<<<<<< HEAD
+
   const files = [
-    { name: 'Semester 1 - English', url: 'English class notes (unit 1, 2, 3).pdf' },
+    { name: 'Semester 1 - English', url: './English class notes (unit 1, 2, 3).pdf' },
     { name: 'Semester 2 - Physics', url: 'files/sem2-physics.pdf' },
     { name: 'Semester 3 - Chemistry', url: 'files/sem3-chemistry.pdf' },
-=======
-  //const baseUrl = 'https://satversx.github.io/shlokverse'; // Base URL for GitHub Pages
-  const files = [
-    { name: 'Semester 1 - English', url: `English%20class%20notes%20(unit%201,%202,%203).pdf` },
-    { name: 'Semester 2 - Physics', url: `sem2-physics.pdf` },
-    { name: 'Semester 3 - Chemistry', url: 'sem3-chemistry.pdf` },
->>>>>>> 56b40f0ecb57b569466e2929747d8fae4fcec68c
+
+  
   ];
 
   const handleDownload = (fileUrl, fileName) => {
