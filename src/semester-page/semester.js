@@ -4,7 +4,7 @@ import React from 'react';
 import './semester.css'; // Import the CSS file
 
 const FileDownload = () => {
-  const baseUrl = 'https://satversx.github.io/shlokverse';
+  const baseUrl = 'https://github.com/SatVerseX/shlokverse/tree/main/public';
   const files = [
     { name: 'Semester 1 - English', url: `${baseUrl}/English%20class%20notes%20(unit%201,%202,%203).pdf` },
     { name: 'Semester 2 - Physics', url: `${baseUrl}/sem2-physics.pdf` },
