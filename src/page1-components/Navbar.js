@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import logo from '../image/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.jpeg'; // Logo image import karein
+import logo from '../image/Designer.png'; // Logo image import karein
 
 const Nav = styled.nav`
   background: linear-gradient(135deg, #4a90e2, #f06);
@@ -120,7 +120,6 @@ const Navbar = () => {
       <Link to="/">
         <Logo src={logo} alt="Logo" />
       </Link>
-      
       <NavLinks>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
