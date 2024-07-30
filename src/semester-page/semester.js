@@ -4,11 +4,11 @@ import React from 'react';
 import './semester.css'; // Import the CSS file
 
 const FileDownload = () => {
-  const baseUrl = 'https://satversx.github.io/shlokverse'; // Base URL for GitHub Pages
+  //const baseUrl = 'https://satversx.github.io/shlokverse'; // Base URL for GitHub Pages
   const files = [
-    { name: 'Semester 1 - English', url: `${baseUrl}/English%20class%20notes%20(unit%201,%202,%203).pdf` },
-    { name: 'Semester 2 - Physics', url: `${baseUrl}/sem2-physics.pdf` },
-    { name: 'Semester 3 - Chemistry', url: `${baseUrl}/sem3-chemistry.pdf` },
+    { name: 'Semester 1 - English', url: `English%20class%20notes%20(unit%201,%202,%203).pdf` },
+    { name: 'Semester 2 - Physics', url: `sem2-physics.pdf` },
+    { name: 'Semester 3 - Chemistry', url: 'sem3-chemistry.pdf` },
   ];
 
   const handleDownload = (fileUrl, fileName) => {
