@@ -4,10 +4,11 @@ import React from 'react';
 import './semester.css'; // Import the CSS file
 
 const FileDownload = () => {
+  const baseUrl = 'https://satversx.github.io/shlokverse';
   const files = [
-    { name: 'Semester 1 - English', url: 'English class notes (unit 1, 2, 3).pdf' },
-    { name: 'Semester 2 - Physics', url: 'files/sem2-physics.pdf' },
-    { name: 'Semester 3 - Chemistry', url: 'files/sem3-chemistry.pdf' },
+    { name: 'Semester 1 - English', url: `${baseUrl}/English%20class%20notes%20(unit%201,%202,%203).pdf` },
+    { name: 'Semester 2 - Physics', url: `${baseUrl}/sem2-physics.pdf` },
+    { name: 'Semester 3 - Chemistry', url: `${baseUrl}/sem3-chemistry.pdf` },
   ];
 
   const handleDownload = (fileUrl, fileName) => {
@@ -16,7 +17,7 @@ const FileDownload = () => {
     link.download = fileName;
     document.body.appendChild(link);
     link.click();
-    link.remove();
+    document.body.removeChild(link);
   };
 
   return (
