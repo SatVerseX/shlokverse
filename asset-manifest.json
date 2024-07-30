@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/shlokverse/static/css/main.8470e808.css",
-    "main.js": "/shlokverse/static/js/main.0ee36c8d.js",
+    "main.css": "/shlokverse/static/css/main.7f4637cf.css",
+    "main.js": "/shlokverse/static/js/main.01565752.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
-    "static/media/English class notes (unit 1, 2, 3).pdf": "/shlokverse/static/media/English class notes (unit 1, 2, 3).c6a4547b0fe50387e2cd.pdf",
     "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
     "index.html": "/shlokverse/index.html",
-    "main.8470e808.css.map": "/shlokverse/static/css/main.8470e808.css.map",
-    "main.0ee36c8d.js.map": "/shlokverse/static/js/main.0ee36c8d.js.map",
+    "main.7f4637cf.css.map": "/shlokverse/static/css/main.7f4637cf.css.map",
+    "main.01565752.js.map": "/shlokverse/static/js/main.01565752.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8470e808.css",
-    "static/js/main.0ee36c8d.js"
+    "static/css/main.7f4637cf.css",
+    "static/js/main.01565752.js"
   ]
 }
