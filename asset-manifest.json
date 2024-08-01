@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shlokverse/static/css/main.7f4637cf.css",
-    "main.js": "/shlokverse/static/js/main.9c168c67.js",
+    "main.css": "/shlokverse/static/css/main.b788a7ee.css",
+    "main.js": "/shlokverse/static/js/main.e323f935.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
     "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
     "index.html": "/shlokverse/index.html",
-    "main.7f4637cf.css.map": "/shlokverse/static/css/main.7f4637cf.css.map",
-    "main.9c168c67.js.map": "/shlokverse/static/js/main.9c168c67.js.map",
+    "main.b788a7ee.css.map": "/shlokverse/static/css/main.b788a7ee.css.map",
+    "main.e323f935.js.map": "/shlokverse/static/js/main.e323f935.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f4637cf.css",
-    "static/js/main.9c168c67.js"
+    "static/css/main.b788a7ee.css",
+    "static/js/main.e323f935.js"
   ]
 }
