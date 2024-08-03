@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shlokverse/static/css/main.31d59c05.css",
+    "main.css": "/shlokverse/static/css/main.c0c08d25.css",
     "main.js": "/shlokverse/static/js/main.9bd55ce1.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
     "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
@@ -10,12 +10,12 @@
     "static/media/R (1).png": "/shlokverse/static/media/R (1).0be4787b860b51ef6f58.png",
     "static/media/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.jpeg": "/shlokverse/static/media/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.8e88c63917fb9ceb31cc.jpeg",
     "index.html": "/shlokverse/index.html",
-    "main.31d59c05.css.map": "/shlokverse/static/css/main.31d59c05.css.map",
+    "main.c0c08d25.css.map": "/shlokverse/static/css/main.c0c08d25.css.map",
     "main.9bd55ce1.js.map": "/shlokverse/static/js/main.9bd55ce1.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d59c05.css",
+    "static/css/main.c0c08d25.css",
     "static/js/main.9bd55ce1.js"
   ]
 }
