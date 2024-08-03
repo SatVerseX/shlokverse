@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import './carousel.css'; // Ensure the path is correct
-import Image1 from '../image/_107f2cb6-894d-44e2-a691-797aa4d5f98f.jpeg';
-import Image2 from '../image/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.jpeg';
-import Image3 from '../image/_9f50b374-7e3e-4148-89df-02b68a12e29f.jpeg';
-import Image4 from '../image/_bc9451b9-0dc1-44f9-b28a-c4949214f762.jpeg';
-import Image5 from '../image/_c2720809-35c3-4ae9-a74a-c80c109480a9.jpeg';
+import Image1 from '../images/_107f2cb6-894d-44e2-a691-797aa4d5f98f.jpeg';
+import Image2 from '../images/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.jpeg';
+import Image3 from '../images/_9f50b374-7e3e-4148-89df-02b68a12e29f.jpeg';
+import Image4 from '../images/_bc9451b9-0dc1-44f9-b28a-c4949214f762.jpeg';
+import Image5 from '../images/_c2720809-35c3-4ae9-a74a-c80c109480a9.jpeg';
 
 const images = [Image1, Image2, Image3, Image4, Image5];
 
@@ -54,7 +54,7 @@ const Carousel = () => {
       </button>
       <div
         className="carousel-images"
-        style={{ transform: `translateX(-${(currentIndex - 1 + images.length) % images.length * 100}%)` }}
+        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {images.map((image, index) => (
           <img

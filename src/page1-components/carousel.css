@@ -15,16 +15,16 @@
   }
   
   .carousel-image {
-    width: 80%; /* Reduce the width of each image */
-    margin: 0 10%; /* Add some margin to center the image */
+    width: 100%; /* Ensure images are not hidden */
+    height: auto;
     flex-shrink: 0;
-    height: 600px;
     transition: transform 0.5s ease;
   }
   
   .carousel-image.active {
     transform: scale(1.1);
   }
+  
   
   .carousel-button {
     position: absolute;
