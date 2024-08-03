@@ -4,21 +4,27 @@ import styled from 'styled-components';
 import logo from '../image/Designer.png'; // Logo image import karein
 
 const Nav = styled.nav`
-  background: linear-gradient(135deg, #4a90e2, #f06);
-  color: #fff;
-  height: 60px;
+  background: #000; /* Majestic black */
+  color: #fff; /* White text */
+  height: 60px; /* Fixed height for desktop view */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
+
+  @media (max-width: 768px) {
+    height: 60px; /* Adjust height for mobile view */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
 `;
 
 const NavLinks = styled.div`
   display: flex;
   align-items: center;
-
+  
   @media (max-width: 768px) {
     display: none;
   }
@@ -32,7 +38,7 @@ const NavLink = styled(Link)`
   transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 
   &:hover {
-    color: #f0f0f0;
+    color: #f0f0f0; /* Slightly lighter text color on hover */
     transform: scale(1.1);
   }
 `;
@@ -47,10 +53,12 @@ const Logo = styled.img`
   }
 `;
 
-const Hamburger = styled.div`
+const Hamburger = styled.button`
   display: none;
   flex-direction: column;
   cursor: pointer;
+  border: none;
+  background: transparent;
   z-index: 1000;
 
   @media (max-width: 768px) {
@@ -78,36 +86,6 @@ const Hamburger = styled.div`
   }
 `;
 
-const MobileMenu = styled.div`
-  display: none;
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  background: #4a90e2;
-  width: 200px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 999;
-  transition: max-height 0.3s ease-in-out;
-
-  &.open {
-    display: block;
-  }
-
-  a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    text-align: center;
-    transition: background 0.3s ease-in-out;
-
-    &:hover {
-      background: #f06;
-    }
-  }
-`;
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -116,30 +94,51 @@ const Navbar = () => {
   };
 
   return (
-    <Nav>
-      <Link to="/">
-        <Logo src={logo} alt="Logo" />
-      </Link>
-      <NavLinks>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/services">Services</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/endsem">Semester</NavLink>
-      </NavLinks>
-      <Hamburger className={menuOpen ? 'open' : ''} onClick={toggleMenu}>
-        <div />
-        <div />
-        <div />
-      </Hamburger>
-      <MobileMenu className={menuOpen ? 'open' : ''}>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/services">Services</Link>
-        <Link to="/contact">Contact</Link>
-        <Link to="/endsem">Semester</Link>
-      </MobileMenu>
-    </Nav>
+    <>
+      <Nav>
+        <Link to="/">
+          <Logo src={logo} alt="Logo" />
+        </Link>
+        <NavLinks>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/endsem">Semester</NavLink>
+        </NavLinks>
+        <Hamburger className={menuOpen ? 'open' : ''} onClick={toggleMenu}>
+          <div />
+          <div />
+          <div />
+        </Hamburger>
+      </Nav>
+
+      <div className={`offcanvas offcanvas-end ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar">
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title">Menu</h5>
+          <button type="button" className="btn-close" onClick={toggleMenu}></button>
+        </div>
+        <div className="offcanvas-body">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link className="nav-link" to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/services" onClick={() => setMenuOpen(false)}>Services</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/endsem" onClick={() => setMenuOpen(false)}>Semester</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
   );
 };
 

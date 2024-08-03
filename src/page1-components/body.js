@@ -7,9 +7,9 @@ const Body = () => {
         <div className="container3">
            <Carousel /> 
             <h1 className="floating-text">
-                Get All Your<br />
-                Notes And Previous<br />
-                Year Paper of Internal<br />
+                Get All Your
+                Notes And Previous <br/>
+                Year Paper of Internal
                 and End Sem
             </h1>
             

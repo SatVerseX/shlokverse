@@ -1,50 +1,82 @@
-/* src/semester.css */
+/* semester.css */
 .container2 {
-  text-align: center;
-  margin: 20px;
   padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
 }
 
 .heading2 {
-  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
   color: #333;
+}
+
+.dropdown-container {
   margin-bottom: 20px;
 }
 
+.semester-label, .subject-label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
 .file-list {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
 }
 
 .file-item {
-  margin: 10px 0;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .file-name {
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 16px;
 }
 
 .download-button {
   padding: 5px 10px;
-  background-color: #4a90e2;
-  color: #fff;
+  background-color: #007bff;
+  color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .download-button:hover {
-  background-color: #357ab7;
+  background-color: #0056b3;
+}
+
+/* React Select custom styles */
+.react-select-container {
+  width: 100%;
+}
+
+.react-select__control {
+  border-color: #ddd;
+  box-shadow: none;
+  &:hover {
+    border-color: #aaa;
+  }
+}
+
+.react-select__menu {
+  border-color: #ddd;
+}
+
+.react-select__option--is-selected {
+  background-color: #007bff;
+}
+
+.react-select__option--is-focused {
+  background-color: #e9ecef;
 }
