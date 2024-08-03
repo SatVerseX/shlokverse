@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useSwipeable } from 'react-swipeable';
 import './carousel.css'; // Ensure the path is correct
-import Image1 from '../image/R (1).png';
-import Image2 from '../image/R (2).png';
-import Image3 from '../image/R (3).png';
-import Image4 from '../image/pngtree-juicy-burgers-with-a-transparent-background-png-image_9002761.png';
+import Image1 from '../image/notes.png';
+import Image2 from '../image/WhatsApp Image 2024-08-03 at 20.35.58_dc3f2be2.png';
+import Image3 from '../image/WhatsApp Image 2024-08-03 at 20.38.51_1b6c46f5.png';
+import Image4 from '../image/WhatsApp Image 2024-08-03 at 20.48.07_7e41daed.png';
 import Image5 from '../image/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.png';
 
 const images = [Image1, Image2, Image3, Image4, Image5];

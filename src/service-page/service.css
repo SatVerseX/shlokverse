@@ -5,7 +5,7 @@
     align-items: center;
     height: 100vh; /* Full viewport height */
     background: linear-gradient(135deg, #ffffff, rgb(243, 239, 241));
-    color: #fff;
+    color:#000;
     text-align: center;
   }
   
