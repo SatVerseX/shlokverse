@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import logo from '../image/Designer.png'; // Logo image import karein
+import logo from '../image/logo.png'; // Logo image import karein
 
 const Nav = styled.nav`
   background: #000; /* Majestic black */
