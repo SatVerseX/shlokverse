@@ -5,6 +5,7 @@ const page1=()=>{
     return(
         <div>
             <Body/>
+            
         </div>
 
     );
