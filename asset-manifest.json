@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/shlokverse/static/css/main.f950fb8d.css",
-    "main.js": "/shlokverse/static/js/main.c74a7a3d.js",
+    "main.js": "/shlokverse/static/js/main.e90b6ea2.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
     "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
-    "static/media/_107f2cb6-894d-44e2-a691-797aa4d5f98f.jpeg": "/shlokverse/static/media/_107f2cb6-894d-44e2-a691-797aa4d5f98f.0741f77c2e8372d6c679.jpeg",
     "static/media/_bc9451b9-0dc1-44f9-b28a-c4949214f762.jpeg": "/shlokverse/static/media/_bc9451b9-0dc1-44f9-b28a-c4949214f762.ca7dceaaaec6523eeb2f.jpeg",
     "static/media/_9f50b374-7e3e-4148-89df-02b68a12e29f.jpeg": "/shlokverse/static/media/_9f50b374-7e3e-4148-89df-02b68a12e29f.f5bb0e542970f138d385.jpeg",
     "static/media/_c2720809-35c3-4ae9-a74a-c80c109480a9.jpeg": "/shlokverse/static/media/_c2720809-35c3-4ae9-a74a-c80c109480a9.7903d8ba5551d3023421.jpeg",
     "static/media/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.jpeg": "/shlokverse/static/media/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.8e88c63917fb9ceb31cc.jpeg",
     "index.html": "/shlokverse/index.html",
     "main.f950fb8d.css.map": "/shlokverse/static/css/main.f950fb8d.css.map",
-    "main.c74a7a3d.js.map": "/shlokverse/static/js/main.c74a7a3d.js.map",
+    "main.e90b6ea2.js.map": "/shlokverse/static/js/main.e90b6ea2.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f950fb8d.css",
-    "static/js/main.c74a7a3d.js"
+    "static/js/main.e90b6ea2.js"
   ]
 }
