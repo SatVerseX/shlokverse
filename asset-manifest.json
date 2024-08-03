@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shlokverse/static/css/main.d469a628.css",
-    "main.js": "/shlokverse/static/js/main.f68e6f68.js",
+    "main.js": "/shlokverse/static/js/main.e7ee2dc0.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
     "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
     "static/media/WhatsApp Image 2024-08-03 at 20.35.58_dc3f2be2.png": "/shlokverse/static/media/WhatsApp Image 2024-08-03 at 20.35.58_dc3f2be2.8bd72e8f99ce9380a5fa.png",
@@ -11,11 +11,11 @@
     "static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.png": "/shlokverse/static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.1ea652516e8df76e6010.png",
     "index.html": "/shlokverse/index.html",
     "main.d469a628.css.map": "/shlokverse/static/css/main.d469a628.css.map",
-    "main.f68e6f68.js.map": "/shlokverse/static/js/main.f68e6f68.js.map",
+    "main.e7ee2dc0.js.map": "/shlokverse/static/js/main.e7ee2dc0.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d469a628.css",
-    "static/js/main.f68e6f68.js"
+    "static/js/main.e7ee2dc0.js"
   ]
 }
