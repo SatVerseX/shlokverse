@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/shlokverse/static/css/main.477b6387.css",
-    "main.js": "/shlokverse/static/js/main.34e51d67.js",
+    "main.js": "/shlokverse/static/js/main.59fca099.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
+    "static/media/R (2).png": "/shlokverse/static/media/R (2).170c6fe3d317d2c48858.png",
+    "static/media/R (3).png": "/shlokverse/static/media/R (3).359737fe600756a5af52.png",
     "static/media/Designer.png": "/shlokverse/static/media/Designer.dba2d6dd516956b6af6d.png",
-    "static/media/_bc9451b9-0dc1-44f9-b28a-c4949214f762.jpeg": "/shlokverse/static/media/_bc9451b9-0dc1-44f9-b28a-c4949214f762.ca7dceaaaec6523eeb2f.jpeg",
-    "static/media/_9f50b374-7e3e-4148-89df-02b68a12e29f.png": "/shlokverse/static/media/_9f50b374-7e3e-4148-89df-02b68a12e29f.f5bb0e542970f138d385.png",
-    "static/media/_c2720809-35c3-4ae9-a74a-c80c109480a9.jpeg": "/shlokverse/static/media/_c2720809-35c3-4ae9-a74a-c80c109480a9.7903d8ba5551d3023421.jpeg",
+    "static/media/pngtree-juicy-burgers-with-a-transparent-background-png-image_9002761.png": "/shlokverse/static/media/pngtree-juicy-burgers-with-a-transparent-background-png-image_9002761.96d19695871238f9b0f6.png",
     "static/media/R (1).png": "/shlokverse/static/media/R (1).0be4787b860b51ef6f58.png",
-    "static/media/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.png": "/shlokverse/static/media/_431c29bf-6070-4a14-be41-d40b3b4dc8dd.8e88c63917fb9ceb31cc.png",
+    "static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.png": "/shlokverse/static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.1ea652516e8df76e6010.png",
     "index.html": "/shlokverse/index.html",
     "main.477b6387.css.map": "/shlokverse/static/css/main.477b6387.css.map",
-    "main.34e51d67.js.map": "/shlokverse/static/js/main.34e51d67.js.map",
+    "main.59fca099.js.map": "/shlokverse/static/js/main.59fca099.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.477b6387.css",
-    "static/js/main.34e51d67.js"
+    "static/js/main.59fca099.js"
   ]
 }
