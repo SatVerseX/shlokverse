@@ -1,0 +1,125 @@
+/* Game container styling */
+.game {
+    position: relative;
+    min-height: 100vh; /* Ensure it covers the entire viewport height */
+    background: url('../image/tictactoe.png') no-repeat center center fixed; /* Full-page background */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Board styling */
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 400px; /* Maximum width for the board */
+  }
+  
+  /* Square styling */
+  .square {
+    width: 100%;
+    padding-top: 100%; /* Maintain square aspect ratio */
+    position: relative;
+    background: rgba(233, 216, 166, 0.9); /* Light beige with transparency */
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .square:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Filled squares */
+  .square.filled {
+    cursor: default;
+    color: #40392f;
+  }
+  
+  /* Content inside the square */
+  .square div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Status message */
+  .status {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ea0c0c;
+    
+    text-align: center;
+  }
+  
+  /* Restart button */
+  .restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background: #40392f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .restart-button:hover {
+    background: #5a4f3f;
+  }
+
+/* Mode selection buttons */
+.mode-selection {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mode-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: #40392f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.mode-button:hover {
+    background: #5a4f3f;
+    transform: scale(1.05);
+}
+
+.mode-button.active {
+    background: #5a4f3f; /* Different background for active button */
+}
+
+/* Button container styling */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}  

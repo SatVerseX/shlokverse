@@ -1,5 +1,5 @@
 {
-  "homepage": "https://SatVerseX.github.io/shlokverse",
+  "homepage": "https://satversex.github.io/shlokverse",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -10,6 +10,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "framer-motion": "^11.3.21",
+    "phaser": "^3.80.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
@@ -17,7 +19,9 @@
     "react-scripts": "^5.0.1",
     "react-select": "^5.8.0",
     "react-swipeable": "^7.0.1",
+    "react-toastify": "^10.0.5",
     "styled-components": "^6.1.12",
+    "three": "^0.167.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -86,6 +86,53 @@ const Hamburger = styled.button`
   }
 `;
 
+const Offcanvas = styled.div`
+  position: fixed;
+  top: 60px; /* Start below the navbar */
+  right: 0;
+  width: 250px; /* Slightly narrower width */
+  height: calc(100% - 60px); /* Adjust height to fill the remaining space */
+  background: var(--offcanvas-bg, #000); /* Use CSS variable */
+  color: var(--offcanvas-text, #fff); /* Use CSS variable */
+  transform: ${({ $show }) => ($show ? 'translateX(0)' : 'translateX(100%)')};
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  z-index: 1000; /* Ensure offcanvas is below hamburger but above other content */
+  box-shadow: ${({ $show }) => ($show ? '0 4px 8px rgba(0, 0, 0, 0.5)' : 'none')}; /* Shadow on open */
+  border-radius: 8px 0 0 8px; /* Rounded corners on left side */
+
+  @media (max-width: 768px) {
+    width: 200px; /* Adjust width for mobile view */
+  }
+
+  .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--border-color, #444); /* Use CSS variable */
+    background: var(--header-bg, #333); /* Background for header */
+  }
+
+  .offcanvas-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 10px 0;
+    color: var(--link-color, #fff); /* Use CSS variable */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: var(--link-hover-color, #f0f0f0); /* Use CSS variable */
+      text-decoration: underline; /* Optional: add underline on hover */
+    }
+  }
+`;
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -113,7 +160,7 @@ const Navbar = () => {
         </Hamburger>
       </Nav>
 
-      <div className={`offcanvas offcanvas-end ${menuOpen ? 'show' : ''}`} tabIndex="-1" id="offcanvasNavbar">
+      <Offcanvas $show={menuOpen}>
         <div className="offcanvas-header">
           <h5 className="offcanvas-title">Menu</h5>
           <button type="button" className="btn-close" onClick={toggleMenu}></button>
@@ -137,7 +184,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </Offcanvas>
     </>
   );
 };
