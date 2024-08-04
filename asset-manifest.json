@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/shlokverse/static/css/main.d469a628.css",
-    "main.js": "/shlokverse/static/js/main.76bf5a0c.js",
+    "main.css": "/shlokverse/static/css/main.af3f559e.css",
+    "main.js": "/shlokverse/static/js/main.ee5a471b.js",
     "static/js/453.ed3810f9.chunk.js": "/shlokverse/static/js/453.ed3810f9.chunk.js",
+    "static/media/tictactoe.png": "/shlokverse/static/media/tictactoe.bc7ecb1ee65c533ae99f.png",
     "static/media/WhatsApp Image 2024-08-03 at 20.35.58_dc3f2be2.png": "/shlokverse/static/media/WhatsApp Image 2024-08-03 at 20.35.58_dc3f2be2.8bd72e8f99ce9380a5fa.png",
     "static/media/notes.png": "/shlokverse/static/media/notes.4336953f19b8e68a24aa.png",
     "static/media/WhatsApp Image 2024-08-03 at 20.38.51_1b6c46f5.png": "/shlokverse/static/media/WhatsApp Image 2024-08-03 at 20.38.51_1b6c46f5.d678d3fe3c11fdcc3f3b.png",
@@ -10,12 +11,12 @@
     "static/media/logo.png": "/shlokverse/static/media/logo.4ebe8dd1ba8459f0bcd3.png",
     "static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.png": "/shlokverse/static/media/pngtree-shree-ganeshay-namah-hindi-calligraphy-with-lord-ganesha-symbol-design-png-image_8987150.1ea652516e8df76e6010.png",
     "index.html": "/shlokverse/index.html",
-    "main.d469a628.css.map": "/shlokverse/static/css/main.d469a628.css.map",
-    "main.76bf5a0c.js.map": "/shlokverse/static/js/main.76bf5a0c.js.map",
+    "main.af3f559e.css.map": "/shlokverse/static/css/main.af3f559e.css.map",
+    "main.ee5a471b.js.map": "/shlokverse/static/js/main.ee5a471b.js.map",
     "453.ed3810f9.chunk.js.map": "/shlokverse/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d469a628.css",
-    "static/js/main.76bf5a0c.js"
+    "static/css/main.af3f559e.css",
+    "static/js/main.ee5a471b.js"
   ]
 }
