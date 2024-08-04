@@ -19,13 +19,12 @@
     gap: 10px;
     width: 100%;
     max-width: 400px; /* Maximum width for the board */
+    aspect-ratio: 1 / 1; /* Maintain square aspect ratio */
   }
   
   /* Square styling */
   .square {
-    width: 100%;
-    padding-top: 100%; /* Maintain square aspect ratio */
-    position: relative;
+    aspect-ratio: 1; /* Maintain square aspect ratio */
     background: rgba(233, 216, 166, 0.9); /* Light beige with transparency */
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
@@ -36,6 +35,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden; /* Ensure content does not overflow */
   }
   
   .square:hover {
@@ -51,11 +51,6 @@
   
   /* Content inside the square */
   .square div {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +62,6 @@
     font-size: 1.5rem;
     font-weight: bold;
     color: #ea0c0c;
-    
     text-align: center;
   }
   
@@ -87,16 +81,16 @@
   .restart-button:hover {
     background: #5a4f3f;
   }
-
-/* Mode selection buttons */
-.mode-selection {
+  
+  /* Mode selection buttons */
+  .mode-selection {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
-}
-
-.mode-button {
+  }
+  
+  .mode-button {
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: bold;
@@ -106,20 +100,46 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
-}
-
-.mode-button:hover {
+  }
+  
+  .mode-button:hover {
     background: #5a4f3f;
     transform: scale(1.05);
-}
-
-.mode-button.active {
+  }
+  
+  .mode-button.active {
     background: #5a4f3f; /* Different background for active button */
-}
-
-/* Button container styling */
-.button-container {
+  }
+  
+  /* Button container styling */
+  .button-container {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-}  
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .mode-button {
+      font-size: 0.9rem; /* Adjust font size for smaller screens */
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+    
+    .restart-button {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mode-button {
+      font-size: 0.8rem; /* Further adjust font size */
+      padding: 6px 12px; /* Further adjust padding */
+    }
+    
+    .restart-button {
+      font-size: 0.9rem; /* Further adjust font size */
+      padding: 6px 12px; /* Further adjust padding */
+    }
+  }
+  
