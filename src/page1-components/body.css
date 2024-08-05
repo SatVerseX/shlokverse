@@ -1,37 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-.container {
-    position: relative;
-    height: 100vh;
+/* body.css */
+.container3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
-    overflow: hidden;
-    text-align: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure full viewport height */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some padding */
 }
+
+.carousel-wrapper {
+    width: 100%; /* Adjust to fit within the container */
+    max-width: 1200px; /* Adjust based on your design */
+    margin-bottom: 20px; /* Space between carousel and text */
+}
+
 .floating-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    background: rgb(255, 64, 58);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
-    /* line-height: 1.5;*/
-    letter-spacing: 0.5px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 2.5rem; /* Font size slightly reduced for better layout */
+    font-weight: 700; /* Bold font weight for professional look */
+    color: #007bff; /* Blue color for modern look */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Modern text shadow */
     margin: 0;
-    width: auto;
-    max-width: none;
-    box-sizing: content-box;
-    border: none; /* Remove any border */
-    text-decoration: none; /* Remove underline, if any */
+    padding: 20px;
+    background-color: #ffffff; /* White background for text box */
+    border-radius: 10px; /* Rounded corners for modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Modern box shadow */
+    display: inline-block;
+    max-width: 90%; /* Adjust max width of text box */
+    line-height: 1.5; /* Line height for better text spacing */
+}
+
+.carousel-container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #444;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    background-color: whitesmoke;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-container img {
+    width: 100%; /* Ensure images fit within the container */
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .floating-text {
+        font-size: 1.8rem; /* Smaller font size for mobile view */
+        padding: 15px;
+        max-width: 95%; /* Adjust max width of text box */
+    }
+    .carousel-wrapper {
+        width: 100%; /* Ensure carousel fits within the container */
+    }
 }

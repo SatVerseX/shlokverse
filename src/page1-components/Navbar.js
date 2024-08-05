@@ -4,14 +4,15 @@ import styled from 'styled-components';
 import logo from '../image/logo.png'; // Logo image import karein
 
 const Nav = styled.nav`
-  background: #000; /* Majestic black */
-  color: #fff; /* White text */
+  background: #fff; /* White background */
+  color: #000; /* Black text */
   height: 60px; /* Fixed height for desktop view */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
   position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 
   @media (max-width: 768px) {
     height: 60px; /* Adjust height for mobile view */
@@ -31,14 +32,14 @@ const NavLinks = styled.div`
 `;
 
 const NavLink = styled(Link)`
-  color: #fff;
+  color: #007bff; /* Blue text */
   text-decoration: none;
   margin: 0 10px;
   font-size: 18px;
   transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 
   &:hover {
-    color: #f0f0f0; /* Slightly lighter text color on hover */
+    color: #0056b3; /* Darker blue on hover */
     transform: scale(1.1);
   }
 `;
@@ -66,7 +67,7 @@ const Hamburger = styled.button`
   }
 
   div {
-    background-color: #fff;
+    background-color: #000; /* Black color for lines */
     height: 3px;
     width: 25px;
     margin: 3px 0;
@@ -92,12 +93,12 @@ const Offcanvas = styled.div`
   right: 0;
   width: 250px; /* Slightly narrower width */
   height: calc(100% - 60px); /* Adjust height to fill the remaining space */
-  background: var(--offcanvas-bg, #000); /* Use CSS variable */
-  color: var(--offcanvas-text, #fff); /* Use CSS variable */
+  background: #fff; /* White background for offcanvas */
+  color: #000; /* Black text */
   transform: ${({ $show }) => ($show ? 'translateX(0)' : 'translateX(100%)')};
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   z-index: 1000; /* Ensure offcanvas is below hamburger but above other content */
-  box-shadow: ${({ $show }) => ($show ? '0 4px 8px rgba(0, 0, 0, 0.5)' : 'none')}; /* Shadow on open */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   border-radius: 8px 0 0 8px; /* Rounded corners on left side */
 
   @media (max-width: 768px) {
@@ -109,8 +110,8 @@ const Offcanvas = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 1px solid var(--border-color, #444); /* Use CSS variable */
-    background: var(--header-bg, #333); /* Background for header */
+    border-bottom: 1px solid #e5e5e5; /* Light grey border */
+    background: #f8f9fa; /* Light background for header */
   }
 
   .offcanvas-body {
@@ -122,12 +123,12 @@ const Offcanvas = styled.div`
   .nav-link {
     display: block;
     padding: 10px 0;
-    color: var(--link-color, #fff); /* Use CSS variable */
+    color: #007bff; /* Blue color for links */
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: var(--link-hover-color, #f0f0f0); /* Use CSS variable */
+      color: #0056b3; /* Darker blue on hover */
       text-decoration: underline; /* Optional: add underline on hover */
     }
   }
